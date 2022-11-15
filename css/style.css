@@ -401,10 +401,14 @@ h1, h2, h3, h4, h5, h6, figure {
     height: inherit;
   }
 }
+.event-wrap{
+  font-weight: 500;
+}
+
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   padding: 30px;
   width: 100%;
   float: left;
@@ -422,7 +426,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
-  color: #fff;
+  color: black;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
   padding-bottom: 20px;
@@ -433,11 +437,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
